@@ -33,6 +33,16 @@ local function worker(args)
         time_to_update,
         function(container, stdout)
             stdout = string.gsub(stdout, "\n", "") -- remove line break so we can add "°C" at the end
+
+            local temp = tonumber(stdout)
+            if temp <= 30 then
+                container.fg = "#90EE90"
+            elseif temp <= 50 then
+                container.fg = "#FFFF33"
+            else
+                container.fg = "#e70000"
+            end
+
             widget:set_text(" " .. stdout .. "°C")
         end,
     container)
