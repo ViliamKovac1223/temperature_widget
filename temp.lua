@@ -14,7 +14,6 @@ local function worker(args)
     local widget = wibox.widget {
         align  = 'center',
         valign = 'center',
-        text = "sdsa",
         widget = wibox.widget.textbox,
     }
 
