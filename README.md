@@ -58,14 +58,14 @@ Mod4 + Control + r
 ``` 
 
 ## Options
-time_to_update - Delay time in seconds to update a widget.
-shape - Shape from gears (https://awesomewm.org/doc/api/libraries/gears.shape.html).
-font - Font.
-bg - Widget background.
-shape_border_color - Border color of the shape.
-shape_border_width - Border width of the shape.
-low_level_temp_fg - Text color when temperature is low.
-mid_level_temp_fg - Text color when temperature is medium.
-high_level_temp_fg - Text color when temperature is high.
-low_level_temp - Maximum value of temperature which is considered low.
-mid_level_temp - Maximum value of temperature which is considered medium. Everything above is considered high.
+time_to_update - Delay time in seconds to update a widget.  
+shape - Shape from gears (https://awesomewm.org/doc/api/libraries/gears.shape.html).  
+font - Font.  
+bg - Widget background.  
+shape_border_color - Border color of the shape.  
+shape_border_width - Border width of the shape.  
+low_level_temp_fg - Text color when temperature is low.  
+mid_level_temp_fg - Text color when temperature is medium.  
+high_level_temp_fg - Text color when temperature is high.  
+low_level_temp - Maximum value of temperature which is considered low.  
+mid_level_temp - Maximum value of temperature which is considered medium. Everything above is considered high.  
